@@ -1,0 +1,112 @@
+.page
+{
+	width: 1500px;
+	height: auto;
+	border-style: groove;
+}
+.headerpart
+{
+	width: 1440px;
+	height: 200px;
+	border-style: groove;
+	background-color: rgb(12,100,198);
+	background-image: url("90.jpeg");
+	background-repeat: no-repeat;
+
+}
+
+.linkspart
+{
+	width: 1440px;
+	height: 25px;
+	margin-top: 5px;
+	border-style: groove;
+		background-color: rgb(12,100,198);
+
+}
+.linkspart a
+{
+	color: rgb(245,246,251);
+	text-decoration:none;
+
+}
+.linkspart a:hover
+{	
+	background-color: rgb(245,246,251);
+	color: rgb(12,100,198);
+
+}
+.bodypart
+{
+	width: 1440px;
+	height: 1000px;
+	margin-top: 5px;
+	/*border-style: groove;*/
+}
+
+.bodypart .imagepart
+{
+	width: 900px;
+	height: 400px;
+	margin-top: 50px;
+	margin-left: 50px;
+	border-style: groove;
+	background-image: url("mr.gif");
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.bodypart .newspart
+{
+	width: 400px;
+	height: 200px;
+	/*margin-left: 500px;
+	margin-top: -360px;*/
+
+	border-style: groove;
+	float: right;
+
+}
+.bodypart .newspart h2
+
+{
+	color: green;
+	margin-left: 80px;
+
+}
+
+.bodypart .newspart
+{
+	width: 400px;
+	height: 700px;
+	border-style: groove;
+	float: right;
+}
+
+.bodypart .newspart .news
+{
+	width: 395px;
+	height: 0px;
+	/*border-style: groove;*/
+}
+
+.bodypart .newspart .news h4
+{
+	color: green;
+
+}
+.bodypart  h3
+{
+	color:blue;
+	/*margin-top: -400px;*/
+	text-align:center;
+}
+
+.footer
+{
+	width: 1500px;
+	height: 20px;
+	margin-top: 5px;
+	background-color: rgb(12,100,198);
+	border-style: groove;
+}
